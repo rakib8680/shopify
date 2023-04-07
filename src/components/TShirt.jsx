@@ -6,8 +6,8 @@ const TShirt = ({ tshirt }) => {
 
     console.log(tshirt)
     return (
-        <div>
-
+        <div className='border p-5 rounded-lg'>
+            <img className='h-[250px] mx-auto ' src={picture} />
         </div>
     );
 };
